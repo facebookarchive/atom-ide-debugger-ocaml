@@ -1,14 +1,40 @@
 {
-  "name": "atom-ide-debugger-ocaml",
-  "version": "0.5.0",
-  "description": "OCaml Debugger for Atom IDE",
-  "keywords": [],
-  "repository": "https://github.com/facebook-atom/atom-ide-debugger-ocaml",
-  "license": "BSD-3-Clause",
+  "author": {
+    "name": "NEEDS OWNER"
+  },
+  "dependencies": {
+    "async-to-generator": "1.1.0",
+    "log4js": "1.1.1",
+    "nuclide-commons": "0.6.0",
+    "nuclide-commons-atom": "0.6.0",
+    "nuclide-debugger-common": "0.6.0",
+    "vscode-debugadapter": "1.24.0",
+    "vscode-debugprotocol": "1.24.0"
+  },
+  "description": "OCaml Debugger for Atom IDE.",
+  "devDependencies": {},
   "engines": {
     "atom": ">= 1.17.0"
   },
-  "dependencies": {
-    "atom-ide-debugger-ocaml": "0.6.0"
-  }
+  "homepage": "https://nuclide.io/",
+  "license": "BSD-3-Clause",
+  "main": "./lib/main.js",
+  "name": "atom-ide-debugger-ocaml",
+  "optionalDependencies": {},
+  "package-deps": [
+    "atom-ide-ui"
+  ],
+  "providedServices": {
+    "debugger.provider": {
+      "description": "OCaml debugger engine.",
+      "versions": {
+        "0.0.0": "createDebuggerProvider"
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/facebook-atom/atom-ide-debugger-ocaml"
+  },
+  "version": "0.5.0"
 }
