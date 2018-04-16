@@ -1,6 +1,6 @@
 {
   "name": "atom-ide-debugger-ocaml",
-  "version": "0.5.2",
+  "version": "0.7.0",
   "description": "OCaml Debugger for Atom IDE.",
   "author": "NEEDS OWNER",
   "license": "BSD-3-Clause",
@@ -18,10 +18,9 @@
     }
   },
   "dependencies": {
-    "atom-ide-debugger-ocaml": "0.6.0"
+    "atom-ide-debugger-ocaml": "0.7.0"
   },
   "package-deps": [
     "atom-ide-ui"
   ]
 }
-
