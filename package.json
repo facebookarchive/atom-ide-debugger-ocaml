@@ -1,0 +1,14 @@
+{
+  "name": "atom-ide-debugger-ocaml",
+  "version": "0.5.0",
+  "description": "OCaml Debugger for Atom IDE",
+  "keywords": [],
+  "repository": "https://github.com/facebook-atom/atom-ide-debugger-ocaml",
+  "license": "BSD-3-Clause",
+  "engines": {
+    "atom": ">= 1.17.0"
+  },
+  "dependencies": {
+    "atom-ide-debugger-ocaml": "0.6.0"
+  }
+}
